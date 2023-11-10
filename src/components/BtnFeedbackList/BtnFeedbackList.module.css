@@ -1,0 +1,48 @@
+.btnList {
+   
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 250ms ease;
+    text-transform: capitalize;
+    font: size 25px;;
+}
+
+.btnGood {
+    background-color: greenyellow;
+    
+}
+.btnGood:hover {
+    background-color: rgba(8, 255, 8,0.5);
+    cursor: pointer;
+}
+
+.btnNeutral {
+    background-color: rgb(145, 172, 235);
+}
+
+.btnNeutral:hover {
+    background-color: rgba(8, 86, 255, 0.5);
+    cursor: pointer;
+}
+
+.btnBad {
+    background-color: rgba(136, 25, 0, 0.5);
+}
+
+.btnBad:hover {
+    background-color: rgb(255, 47, 47);
+    
+    cursor: pointer;
+}
